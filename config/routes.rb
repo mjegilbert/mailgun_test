@@ -1,4 +1,6 @@
 Mailgun::Application.routes.draw do
+  get "emails/post"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
